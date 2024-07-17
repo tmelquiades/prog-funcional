@@ -1,9 +1,9 @@
-# Ativ2
+# Ativ1
 
 Projeto para a Atividade 2 da disciplina Programação 
-Funcional, semestre 2023.2. 
+Funcional, semestre 2024.1 
 
-Edite o arquivo `ativ2.ex` no diretório `lib` de 
+Edite o arquivo `ativ1.ex` no diretório `lib` de 
 acordo com as instruções. Para verificar a solução, 
 execute os testes usando
 
@@ -11,4 +11,4 @@ execute os testes usando
 mix test
 ```
 
-Os testes estão no arquivo `ativ2_test.exs` no diretório `test`.
+Os testes estão no arquivo `ativ1_test.exs` no diretório `test`.
