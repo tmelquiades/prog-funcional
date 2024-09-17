@@ -14,9 +14,9 @@ defmodule Eficiencia do
     #Exercicio 2:
     #crie uma versao de map com recursividade de cauda
     def map([], _f), do: []
-    def map([x | r], f), do: [f.(x) | map(r)] |> Enum.reverse
+    def map([x | r], f), do: [f.(x) | map(r, f)] 
     
-    def map2(l, f), do: map_aux(l, f, [])
+    def map2(l, f), do: map_aux(l, f, []) |> Enum.reverse
     def map_aux([], _f, a), do: a
     def map_aux([x | r], f, a), do: map_aux(r, f, [f.(x) | a])
 
