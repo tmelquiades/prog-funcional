@@ -30,6 +30,9 @@ defmodule Servidor do
 	
 	# rota /ola/nome -> Olá, nome!
 	def resposta( { "GET", "/ola/" <> nome}), do: resp200(ola(nome))
+	
+	# def resposta({ "GET", "/" <> arquivo}), do: resp200(le_arquivo(arquivo))
+	
 	def resposta(_), do: resp404(@pag404)
 	
 	defp analisa_req(pacote) do
